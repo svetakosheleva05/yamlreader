@@ -10,6 +10,7 @@ package com.mycompany.yamlreader;
  */
 public class Person {
     private String name;
+    private String surname;
     private String adress;
 
     public String getName() {
@@ -19,4 +20,9 @@ public class Person {
     public String getAdress() {
         return adress;
     }
+
+    public String getSurname() {
+        return surname;
+    }
+  
 }
