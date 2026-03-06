@@ -25,7 +25,7 @@
               <configuration>
                 <transformers>
                   <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                    <mainClass>org.sonatype.yamlreader.Yamlreader</mainClass>
+                    <mainClass>com.mycompany.yamlreader.Yamlreader</mainClass>
                   </transformer>
                 </transformers>
               </configuration>
