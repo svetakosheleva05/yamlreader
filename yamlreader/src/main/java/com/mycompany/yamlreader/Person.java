@@ -24,6 +24,20 @@ public class Person {
     public String getSurname() {
         return surname;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public void setAdress(String adress) {
+        this.adress = adress;
+    }
+    
+    
   
     @Override
     public String toString() {
