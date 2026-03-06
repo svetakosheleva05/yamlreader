@@ -5,6 +5,7 @@
 package com.mycompany.yamlreader;
 
 import java.io.InputStream;
+import java.util.List;
 import org.yaml.snakeyaml.Yaml;
 
 /**
@@ -19,5 +20,11 @@ public class YamelManager {
     InputStream inputStream = this.getClass()
         .getClassLoader()
         .getResourceAsStream("yamlexample.yaml");
+    
+    List<Person> persons = yaml.load(inputStream);
+    
+    for (Person person : persons) {
+        System.out.println(person.toString());
+    }
     }
 }
