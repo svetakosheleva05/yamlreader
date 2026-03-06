@@ -25,4 +25,8 @@ public class Person {
         return surname;
     }
   
+    @Override
+    public String toString() {
+        return "name= " + name + ", address= " + adress;
+    }
 }
