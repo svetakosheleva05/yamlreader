@@ -45,6 +45,6 @@ public class Person {
   
     @Override
     public String toString() {
-        return "name= " + name + ", address= " + address;
+        return "ФИ: " + name + " " + surname + " Адресс: " + address;
     }
 }
