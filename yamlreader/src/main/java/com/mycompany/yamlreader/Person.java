@@ -11,14 +11,14 @@ package com.mycompany.yamlreader;
 public class Person {
     private String name;
     private String surname;
-    private String adress;
+    private String address;
 
     public String getName() {
         return name;
     }
 
-    public String getAdress() {
-        return adress;
+    public String getAddress() {
+        return address;
     }
 
     public String getSurname() {
@@ -33,14 +33,12 @@ public class Person {
         this.surname = surname;
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setAddress(String address) {
+        this.address = address;
     }
-    
-    
   
     @Override
     public String toString() {
-        return "name= " + name + ", address= " + adress;
+        return "name= " + name + ", address= " + address;
     }
 }
